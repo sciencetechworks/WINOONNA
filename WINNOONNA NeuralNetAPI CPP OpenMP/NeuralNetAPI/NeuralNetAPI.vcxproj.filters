@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\NeuralNets">
+      <UniqueIdentifier>{a1f8065f-f5f8-43b9-85ee-0f001d17cc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TransferFunctions">
+      <UniqueIdentifier>{c0364353-77cc-405f-b0c4-ad0fdbd4fa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TainingAlgorithms">
+      <UniqueIdentifier>{da1cfc9c-14c3-417a-a15d-ba34fe967214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LearningFunctions">
+      <UniqueIdentifier>{478b29ed-2c6a-4d1f-b2e1-7b3053836ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NeuralNetElements">
+      <UniqueIdentifier>{4558f24e-0479-423c-b898-03d63a460b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercises">
+      <UniqueIdentifier>{ef51da13-7bff-4d4f-a50a-274bf3fcd5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{df594eab-6508-42e5-b8e6-358c0a9333d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropagation.cpp">
+      <Filter>Source Files\NeuralNets</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNet.cpp">
+      <Filter>Source Files\NeuralNets</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropagationTransferFunction.cpp">
+      <Filter>Source Files\TransferFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\TransferFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferFunction.cpp">
+      <Filter>Source Files\TransferFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropagationTrainingAlgorithm.cpp">
+      <Filter>Source Files\TainingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainingAlgorithm.cpp">
+      <Filter>Source Files\TainingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropagationLearningFunction.cpp">
+      <Filter>Source Files\LearningFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="LearningFunction.cpp">
+      <Filter>Source Files\LearningFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files\NeuralNetElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>Source Files\NeuralNetElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern.cpp">
+      <Filter>Source Files\NeuralNetElements</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternCollection.cpp">
+      <Filter>Source Files\NeuralNetElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sinapsis.cpp">
+      <Filter>Source Files\NeuralNetElements</Filter>
+    </ClCompile>
+    <ClCompile Include="ejemplos_backpropagation.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="EjercicioBackPropagationLeeLetras.cpp">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileTimer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackPropagation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPropagationLearningFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPropagationTrainingAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPropagationTransferFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ejemplos_backpropagation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EjercicioBackPropagationLeeLetras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LearningFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinapsis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainingAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
